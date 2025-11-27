@@ -25,16 +25,13 @@ body {
   height: 48px;
 }
 
-.left {
+.left,
+.right {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.right {
-  display: flex;
-  gap: 16px;
-}
 
 .logo {
   color: rebeccapurple;
