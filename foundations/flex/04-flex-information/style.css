@@ -1,30 +1,28 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center; /* moved here to add to every text*/
 }
 
 img {
   width: 100px;
   height: 100px;
+  /* used to get image to be centered, was not necessary
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;*/
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
   margin-bottom: 32px;
 }
 
+/* Could have used items on every div here instead of make one for each plant*/
 .barberry,
 .chilli,
 .pepper,
 .saffron {
-  width: 200px;
-}
-
-.text {
-  text-align: center;
+  max-width: 200px;
 }
 
 .plants {
